@@ -49,4 +49,8 @@ public class CarMove : MonoBehaviour {
 
 		con.Move((moveV* speed) * Time.deltaTime);
 	}
+
+	public void setSpeed(float modifier){
+		speed = 6.0f + modifier;
+	}
 }
