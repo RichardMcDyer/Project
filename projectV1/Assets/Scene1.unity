@@ -420,8 +420,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefabs:
-  - {fileID: 1009583528613982, guid: 1732d0a18f3a74f31845462efe31a010, type: 2}
   - {fileID: 1427763320578516, guid: a822f15d4d2b6497697799e0cd10cefb, type: 2}
+  - {fileID: 1009583528613982, guid: 1732d0a18f3a74f31845462efe31a010, type: 2}
+  - {fileID: 1009583528613982, guid: 1732d0a18f3a74f31845462efe31a010, type: 2}
+  - {fileID: 1646112664166672, guid: a512976b969504ccf98b325bb1564b7e, type: 2}
 --- !u!4 &1146588232
 Transform:
   m_ObjectHideFlags: 0
