@@ -12,7 +12,7 @@ public class CarMove : MonoBehaviour {
 
 	private float animationDiration = 3.0f;
 
-	private float speed = 6.0f;
+	private float speed = 3.0f;
 	// Use this for initialization
 	void Start () {
 		con = GetComponent<CharacterController> ();
@@ -51,6 +51,6 @@ public class CarMove : MonoBehaviour {
 	}
 
 	public void setSpeed(float modifier){
-		speed = 6.0f + modifier;
+		speed = 3.0f + modifier;
 	}
 }
