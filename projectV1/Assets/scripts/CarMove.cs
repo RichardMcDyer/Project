@@ -12,6 +12,8 @@ public class CarMove : MonoBehaviour {
 
 	private float animationDiration = 3.0f;
 
+//	private bool isDead = false;
+
 	private float speed = 3.0f;
 	// Use this for initialization
 	void Start () {
@@ -20,6 +22,9 @@ public class CarMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+	/*	if (isDead)
+			return; */
 
 		if (Time.time < animationDiration) {
 			con.Move (Vector3.forward * speed * Time.deltaTime);
@@ -53,4 +58,13 @@ public class CarMove : MonoBehaviour {
 	public void setSpeed(float modifier){
 		speed = 3.0f + modifier;
 	}
+
+/*	private void OnControllerColliderHit(ControllerColliderHit hit){
+		if (hit.point.z > transform.position.z + con.radius)
+			Death ();
+	}
+
+	private void Death(){
+		isDead = true;
+	} */
 }
