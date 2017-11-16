@@ -11,6 +11,8 @@ public class Score : MonoBehaviour {
 	private int maxDifficultyLevel = 10;
 	private int scoreToNextLevel = 10;
 
+	private bool isDead = false;
+
 	public Text scoreText;
 
 	// Use this for initialization
@@ -20,6 +22,9 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (isDead)
+			return;
 
 		if (score >= scoreToNextLevel) {
 			LevelUp ();
@@ -39,5 +44,9 @@ public class Score : MonoBehaviour {
 		difficultyLevel++;
 
 		GetComponent<CarMove> ().setSpeed (difficultyLevel);
+	}
+
+	public void OnDeath(){
+		isDead = true;
 	}
 }
