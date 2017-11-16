@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 198
-    y: 331
+    x: 223
+    y: 428
     width: 1280
     height: 708
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -92,7 +92,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 708
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -310,8 +310,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 687
-    y: 380
+    x: 712
+    y: 477
     width: 263
     height: 637
   m_TreeViewState:
@@ -363,8 +363,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1203
-    y: 380
+    x: 1005
+    y: 19
     width: 275
     height: 637
   m_ScrollPosition: {x: 0, y: 0}
@@ -396,8 +396,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 954
-    y: 380
+    x: 979
+    y: 477
     width: 245
     height: 637
   m_SearchFilter:
@@ -422,9 +422,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e2260000
-    m_LastClickedID: 9954
-    m_ExpandedIDs: 00000000442600004c27000076280000b0280000fc280000aa29000000ca9a3bffffff7f
+    m_SelectedIDs: de260000
+    m_LastClickedID: 9950
+    m_ExpandedIDs: 00000000402600004827000072280000ac280000f8280000a629000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000442600004c27000076280000b0280000fc280000aa290000
+    m_ExpandedIDs: 00000000402600004827000072280000ac280000f8280000a6290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: ae240000c4240000902500009c570300329e040006d9feffd606000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -529,8 +529,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 198
-    y: 661
+    x: 223
+    y: 758
     width: 485
     height: 356
   m_MaximizeOnPlay: 0
@@ -605,8 +605,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 198
-    y: 380
+    x: 223
+    y: 477
     width: 485
     height: 260
   m_SceneLighting: 1
