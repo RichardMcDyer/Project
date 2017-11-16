@@ -56,7 +56,7 @@ public class CarMove : MonoBehaviour {
 	}
 
 	public void setSpeed(float modifier){
-		speed = 3.0f + modifier;
+		speed = 2.0f + modifier;
 	}
 
 /*	private void OnControllerColliderHit(ControllerColliderHit hit){
