@@ -15,6 +15,8 @@ public class tileManager : MonoBehaviour {
 
 	private List<GameObject> activeTiles;
 
+
+
 	// Use this for initialization
 	void Start () {
 		activeTiles = new List<GameObject> (); 
@@ -38,7 +40,11 @@ public class tileManager : MonoBehaviour {
 
 	void SpawnTile(int prefabIndex = -1){
 		GameObject go;
+
 		go = Instantiate (tilePrefabs [RandomPrefabIndex()]) as GameObject;
+
+
+ 
 		go.transform.SetParent (transform);
 		go.transform.position = Vector3.forward * spawnZ;
 		spawnZ += tileLenght;
