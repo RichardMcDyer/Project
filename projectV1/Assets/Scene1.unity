@@ -343,7 +343,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 449962, guid: 58c25a420e6882147886b21744a277c7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 70
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 449962, guid: 58c25a420e6882147886b21744a277c7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -383,7 +383,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 449962, guid: 58c25a420e6882147886b21744a277c7, type: 2}
       propertyPath: m_LocalScale.z
-      value: 12
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 149962, guid: 58c25a420e6882147886b21744a277c7, type: 2}
       propertyPath: m_IsActive
@@ -420,9 +420,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefabs:
-  - {fileID: 1666517389257536, guid: a7d5a3d76a39744d6bd5469a5f147414, type: 2}
-  - {fileID: 1968631194103160, guid: 88afb2d0e4f82464780d6e59c9bfce53, type: 2}
-  - {fileID: 1565961257579376, guid: 300c234b416cc4cd3b5357de44be8f14, type: 2}
+  - {fileID: 1516812248916162, guid: 7cbf65e7aa50d4f54b7a240e9788d106, type: 2}
+  - {fileID: 1311082438610250, guid: 591be78ba8e02410d9315fc53bc5d4cc, type: 2}
+  - {fileID: 1516812248916162, guid: 7cbf65e7aa50d4f54b7a240e9788d106, type: 2}
+  - {fileID: 1516812248916162, guid: 7cbf65e7aa50d4f54b7a240e9788d106, type: 2}
 --- !u!4 &1146588232
 Transform:
   m_ObjectHideFlags: 0
