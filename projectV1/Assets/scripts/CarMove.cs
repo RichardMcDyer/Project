@@ -15,6 +15,8 @@ public class CarMove : MonoBehaviour {
 	private bool isDead = false;
 
 	private float speed = 3.0f;
+
+	private float HorzSpeed = 2.5f;
 	// Use this for initialization
 	void Start () {
 		con = GetComponent<CharacterController> ();
@@ -43,7 +45,7 @@ public class CarMove : MonoBehaviour {
 		}
 
 		//x movement (left and right)
-		moveV.x = Input.GetAxisRaw("Horizontal");
+		moveV.x = (Input.GetAxisRaw("Horizontal"))* HorzSpeed;
 
 		//y movement (up and down)
 		moveV.y = VertVelocity;
