@@ -334,6 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1622166952}
+  deathMenu: {fileID: 0}
 --- !u!1001 &944934110
 Prefab:
   m_ObjectHideFlags: 0
@@ -421,8 +422,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilePrefabs:
   - {fileID: 1516812248916162, guid: 7cbf65e7aa50d4f54b7a240e9788d106, type: 2}
-  - {fileID: 1311082438610250, guid: 591be78ba8e02410d9315fc53bc5d4cc, type: 2}
-  - {fileID: 1565961257579376, guid: 300c234b416cc4cd3b5357de44be8f14, type: 2}
+  - {fileID: 1523123004176970, guid: fa9078a5da69148328f35bffe1d85af5, type: 2}
+  - {fileID: 1545233286324250, guid: 3a16a6d5c732e45d4944189b558068b8, type: 2}
   - {fileID: 1968631194103160, guid: 88afb2d0e4f82464780d6e59c9bfce53, type: 2}
 --- !u!4 &1146588232
 Transform:
