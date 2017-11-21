@@ -14,6 +14,7 @@ public class Score : MonoBehaviour {
 	private bool isDead = false;
 
 	public Text scoreText;
+	public DeathMenu deathMenu;
 
 	// Use this for initialization
 	void Start () {
@@ -48,5 +49,6 @@ public class Score : MonoBehaviour {
 
 	public void OnDeath(){
 		isDead = true;
+		deathMenu.ToggleEndMenu (score);
 	}
 }
