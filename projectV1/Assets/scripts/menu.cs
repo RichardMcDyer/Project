@@ -16,7 +16,7 @@ public class menu : MonoBehaviour {
 			Application.Quit();
 		});
 		BonusBtn.onClick.AddListener (() => {
-			SceneManager.LoadScene ("S1");
+			SceneManager.LoadScene ("race_track_lake");
 		});
 	}
 	
