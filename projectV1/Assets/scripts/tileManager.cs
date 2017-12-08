@@ -22,8 +22,12 @@ public class tileManager : MonoBehaviour {
 		activeTiles = new List<GameObject> (); 
 		playerTransform = GameObject.FindGameObjectWithTag ("Player").transform;
 
-		for (int i = 0; i < amtTilesOnScreen; i++) {
-			SpawnTile ();
+		for (int i = 0; i < amtTilesOnScreen; i++) 
+		{
+			if (i < 6)
+				SpawnTile (0);
+			else
+				SpawnTile ();
 		}
 
 	}
@@ -38,11 +42,13 @@ public class tileManager : MonoBehaviour {
 		
 	}
 
-	void SpawnTile(int prefabIndex = -1){
+	void SpawnTile(int prefabIndex = -1)
+	{
 		GameObject go;
-
-		go = Instantiate (tilePrefabs [RandomPrefabIndex()]) as GameObject;
-
+		if (prefabIndex == -1)
+			go = Instantiate (tilePrefabs [RandomPrefabIndex ()]) as GameObject;
+		else
+			go = Instantiate (tilePrefabs [prefabIndex]) as GameObject;
 
  
 		go.transform.SetParent (transform);
