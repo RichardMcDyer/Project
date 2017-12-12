@@ -1,4 +1,4 @@
-﻿/*using System.Collections;
+﻿/* using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +7,14 @@ public class ScoreManager : MonoBehaviour {
 	Dictionary<string, int> playerScores;
 
 	void Start() {
+		SetScore ("quill18", 9001);
+
+		SetScore ("david", 91000);
+
+		SetScore ("quill18", 2000);
+
+		SetScore ("quill18", 9020);
+
 		
 	}
 	void Init(){
@@ -25,7 +33,7 @@ public class ScoreManager : MonoBehaviour {
 		return playerScores [username];
 	}
 
-//	public void SetScore(string username, int value) {
+	public void SetScore(string username, int value) {
 		Init ();
 		if(playerScores.ContainsKey (username) == false) {
 			playerScores [username] = new Dictionary<string, int> ();
@@ -39,4 +47,4 @@ public class ScoreManager : MonoBehaviour {
 		SetScore (username, currScore + amount);
 	}
 
-}*/
+} */
