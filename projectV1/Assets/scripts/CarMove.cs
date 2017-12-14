@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class CarMove : MonoBehaviour {
 
@@ -42,6 +44,7 @@ public class CarMove : MonoBehaviour {
 		else 
 		{
 			VertVelocity -= gravity * Time.deltaTime;
+
 		}
 
 		//x movement (left and right)
@@ -71,3 +74,5 @@ public class CarMove : MonoBehaviour {
 		GetComponent<Score> ().OnDeath ();
 	} 
 }
+
+	
