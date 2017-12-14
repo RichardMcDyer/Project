@@ -295,6 +295,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 494376068}
+  - component: {fileID: 494376069}
   m_Layer: 5
   m_Name: Player Score List
   m_TagString: Untagged
@@ -321,6 +322,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 164.5}
   m_SizeDelta: {x: -524, y: -171}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &494376069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 494376067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4cab54021c74b8b9d3b220f7eee104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScoreEntryPrefab: {fileID: 0}
 --- !u!1 &746857487
 GameObject:
   m_ObjectHideFlags: 0
